@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=hot_reloader
+IAge=3
+Name=Hot Reloader for Flutter
+Description=Triggers hot reload on dart file saved. You must execute flutter with --pid-file /tmp/flutter.pid flags
+Authors= omegaui <omegaui22@gmail.com>
+Copyright=Copyright © 2022 Omega UI <omegaui22@gmail.com>
+Website=https://github.com/omegaui
