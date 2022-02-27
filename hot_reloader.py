@@ -1,3 +1,7 @@
+# @author : omegaui
+# Licensed under GNU GPL v3
+
+
 import subprocess
 from gi.repository import GObject, Gedit
 
@@ -27,7 +31,6 @@ class HotReloaderPlugin(GObject.Object, Gedit.WindowActivatable):
 	def do_update_state(self):
 		pass
 
-
-#silent execute '!kill -SIGUSR1 "$(pgrep -f flutter_tools.snapshot\ run)" &> /dev/null'
+# silent execute '!kill -SIGUSR1 "$(pgrep -f flutter_tools.snapshot\ run)" &> /dev/null'
 
 
